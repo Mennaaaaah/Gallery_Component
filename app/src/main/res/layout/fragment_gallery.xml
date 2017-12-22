@@ -1,0 +1,82 @@
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".CustomGallery.GalleryFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+            <view
+                class="com.example.soly.gallerycomponent.CustomGallery.WrapContentHeightViewPager"
+                android:id="@+id/vp_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_SliderDots"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AutoTransaction"
+                android:id="@+id/tv_autoTransition"
+                android:textColor="@color/colorPrimary"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/et_setSec"
+                    android:inputType="number"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="@string/Sec"
+                    android:textColor="@color/colorPrimary"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_start"
+                android:text="@string/Start"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+

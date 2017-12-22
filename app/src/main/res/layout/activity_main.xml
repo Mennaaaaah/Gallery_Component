@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soly.gallerycomponent.MainActivity"
+    android:orientation="vertical"
+  >
+
+<!--<com.example.soly.gallerycomponent.CustomGallery-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent" />-->
+<!--<com.example.soly.gallerycomponent.CustomGallery.GalleryComponent-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--/>-->
+
+    <fragment
+        class="com.example.soly.gallerycomponent.CustomGallery.GalleryFragment"
+        android:id="@+id/headlines_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+

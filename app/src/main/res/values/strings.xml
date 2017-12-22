@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"Gallery Component "</string>
+    <string name="AutoTransaction">Auto -Transaction</string>
+    <string name="Start">Start</string>
+    <string name="Sec">Sec</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
