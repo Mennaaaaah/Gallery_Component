@@ -17,7 +17,7 @@
     <!--/>-->
 
     <fragment
-        class="com.example.soly.gallerycomponent.CustomGallery.GalleryFragment"
+        class="com.example.soly.gallerycomponent.CustomGallery.GalleryComponent"
         android:id="@+id/headlines_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
